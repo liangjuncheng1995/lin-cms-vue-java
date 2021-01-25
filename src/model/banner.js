@@ -8,6 +8,11 @@ class Banner {
     })
     return res
   }
+
+  static async getDetail(id) {
+    const res = await get(`v1/banner/${id}`)
+    return res
+  }
 }
 
 export default Banner
