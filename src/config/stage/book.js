@@ -2,11 +2,11 @@ const bookRouter = {
   route: null,
   name: null,
   title: '图书管理',
-  type: 'folder', // 类型: folder, tab, view
+  type: 'folder', // 类型: folder(目录), tab(可以参考分组管理), view
   icon: 'iconfont icon-tushuguanli',
   filePath: 'view/book/', // 文件路径
   order: null,
-  inNav: true,
+  inNav: false,
   children: [
     {
       title: '添加图书',
